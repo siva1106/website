@@ -47,17 +47,7 @@ h1, h2, h3 {
   border-bottom: 2px solid #3498db;
   padding-bottom: 5px;
 }
-/* Style for the profile picture on the home page */
-.profile-picture {
-  display: block;
-  margin: 30px auto;
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;   /* <-- THIS IS THE LINE THAT MAKES IT CIRCULAR */
-  object-fit: cover;    /* <-- This prevents the image from being stretched */
-  border: 5px solid #fff;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
-}
+
 /* Link Style */
 a {
   color: #3498db;
@@ -92,3 +82,4 @@ a:hover {
   color: #3498db; /* Bright blue on hover */
   text-decoration: none;
 }
+
