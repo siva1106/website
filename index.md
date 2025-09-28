@@ -1,7 +1,5 @@
 # Siva V
-
-Welcome to my personal website. I use this space to showcase my projects and share information about my work.
-
+![A picture of Siva V](/assets/img/profile.jpg)
 ## About Me
 
 I am currently working as a Senior Lab Technician at ICMR-NIRT. Motivated biotechnology graduate with a strong foundation in molecular biology, computational biology, and microbial genetics. Skilled in SNP analysis, gene profiling, and laboratory techniques such as PCR and ELISA. Alongside my work, I am a passionate programmer and data science enthusiast with a strong interest in using the Julia programming language for building efficient and scalable solutions.
