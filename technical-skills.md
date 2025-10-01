@@ -17,6 +17,12 @@
 *   **Structural Biology:** Applied experience in molecular docking for protein-ligand interaction studies.
 *   **Genomics:** Practical knowledge of SNP analysis and gene profiling.
 
+### Data Science & Machine Learning
+*   **Languages:** Julia
+*   **Core Libraries:**
+    *   **Julia:** DataFrames.jl, CSV.jl, Plots.jl, Flux.jl (for Machine Learning)
+*   **Techniques:** Data Wrangling & Cleaning, Exploratory Data Analysis (EDA), Supervised Learning (Classification, Regression), Model Evaluation & Validation.
+*   **Tools:** Git & GitHub
 ---
 
 ### Scientific Communication
