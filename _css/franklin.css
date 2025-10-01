@@ -82,51 +82,30 @@ a:hover {
   color: #3498db; /* Bright blue on hover */
   text-decoration: none;
 }
-/* --- Profile Section on Home Page --- */
-
-/* Main container for the picture and social links */
-.profile-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 40px auto;
-  gap: 30px;
+/* Style for the profile picture on the home page */
+.franklin-content img {
+  display: block;
+  margin: 20px auto; /* Adds space and centers the image */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* This makes the image circular */
+  object-fit: cover; /* Ensures the image covers the circle without distortion */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* THIS IS THE FIX for the large, non-circular image */
-.profile-container .profile-picture {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 5px solid #fff;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
-  margin: 0; /* Override any previous margin */
+/* --- Footer Social Icons --- */
+.footer-socials {
+  margin-top: 15px; /* Adds space between copyright text and icons */
 }
 
-/* Container for the social icons */
-.profile-socials {
-  display: flex;
-  flex-direction: row; /* Horizontal layout */
-  gap: 20px;
+.footer-socials a {
+  font-size: 28px;   /* Controls the size of the icons */
+  margin: 0 15px;    /* Adds space between the icons */
+  display: inline-block; /* Allows for hover effects like transform */
+  transition: transform 0.3s;
 }
 
-/* Styling for the individual social icons */
-.profile-socials a {
-  width: 55px;
-  height: 55px;
-  background-color: #f0f0f0;
-  color: #2c3e50;
-  text-align: center;
-  line-height: 55px;
-  font-size: 28px;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-}
-
-.profile-socials a:hover {
-  background-color: #3498db;
-  color: white;
-  transform: scale(1.1);
-  text-decoration: none;
+/* Keep the existing hover color but add a nice scaling effect */
+.footer-socials a:hover {
+  transform: scale(1.2);
 }
