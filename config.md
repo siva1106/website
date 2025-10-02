@@ -9,9 +9,10 @@ ignore = ["node_modules/"]
 generate_rss = true
 website_title = "Siva V | Personal Portfolio"
 website_descr = "The personal portfolio and project showcase for Siva V, a biotechnology and data science professional."
-website_url   = "/"
+website_url   = "https://siva1106.github.io/"
+@def prepath = "website"
 +++
 
 <!-- Add global latex commands below -->
 \newcommand{\R}{\mathbb R}
-\newcommand{\scal}[1]{\langle #1 \rangle}
+\newcommand{\scal}[}[1]{\langle #1 \rangle}
