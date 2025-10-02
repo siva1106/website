@@ -1,3 +1,5 @@
+@def prepath = "website"
+
 +++
 author = "Siva V"
 mintoclevel = 2
@@ -10,7 +12,6 @@ generate_rss = true
 website_title = "Siva V | Personal Portfolio"
 website_descr = "The personal portfolio and project showcase for Siva V, a biotechnology and data science professional."
 website_url   = "https://siva1106.github.io/website/"
-@def prepath = "website"
 +++
 
 <!-- Add global latex commands below -->
