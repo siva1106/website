@@ -1,4 +1,4 @@
-Sitemap: https://siva1106.github.io/sitemap.xml
+Sitemap: https://siva1106.github.io/website/sitemap.xml
 
 User-agent: *
 Disallow:
